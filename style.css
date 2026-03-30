@@ -164,7 +164,6 @@ ul
 
 .banchay
 {
-width: 100%;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -174,7 +173,7 @@ width: 100%;
   background: white;
   cursor: pointer;
   font-size: 10px;
-  margin: 10px;
+  margin: 20px;
 }
 
 .giabc
