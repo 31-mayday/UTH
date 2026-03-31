@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>UTH University</title>
+  <link rel="stylesheet" href="responsive-style.css" />
+  <link rel="shortcut icon" href="image/logo-truong-dai-hoc-giao-thong-van-tai-tp-hcm-1.jpg" type="image/x-icon">
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="image/logo_full (1).png" alt="">
+    </div>
+    <div class="search">
+      <input type="text" placeholder="Tìm kiếm sản phẩm..." />
+      <button>Tìm</button>
+    </div>
+    <div class="phai">
+      <ul>
+        <li>🛒 Giỏ hàng (0)</li>
+        <li>👤 Tài khoản</li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- ===== MENU 2 CẤP ===== -->
+  <!-- Checkbox ẩn để toggle menu hamburger -->
+  <input type="checkbox" id="hamburger-toggle">
+  <!-- Label này là nút ☰ hiện trên mobile -->
+  <label class="hamburger-label" for="hamburger-toggle"></label>
+
+  <nav>
+    <ul class="menu">
+      <li><a href="E1.html">Trang chủ</a></li>
+
+      <!-- Điện thoại có submenu (cấp 2) -->
+      <li class="has-sub">
+        <input type="checkbox" id="sub-dienthoai">
+        <label for="sub-dienthoai">Điện thoại</label>
+        <ul class="submenu">
+          <li><a href="mobile.html">iPhone</a></li>
+          <li><a href="mobile.html">Samsung</a></li>
+          <li><a href="mobile.html">Xiaomi</a></li>
+        </ul>
+      </li>
+
+      <!-- Laptop có submenu (cấp 2) -->
+      <li class="has-sub">
+        <input type="checkbox" id="sub-laptop">
+        <label for="sub-laptop">Laptop</label>
+        <ul class="submenu">
+          <li><a href="laptop.html">Dell</a></li>
+          <li><a href="laptop.html">MacBook</a></li>
+          <li><a href="laptop.html">Asus</a></li>
+        </ul>
+      </li>
+
+      <li><a href="phukien.html">Phụ kiện</a></li>
+      <li><a href="khuyenmai.html">Khuyến mãi</a></li>
+      <li><a href="lienhe.html">Liên hệ</a></li>
+    </ul>
+  </nav>
+
+  <section>
+    <div class="container">
+      <div class="banner">
+        <img src="image/1.png" alt="">
+      </div>
+
+      <div class="products">
+        <div class="card">
+          <img src="image/mot.png" alt="">
+          <p>iPhone 15</p>
+          <p class="gia">25.000.000 VND</p>
+          <button>Mua ngay</button>
+        </div>
+        <div class="card">
+          <img src="image/hai.png" alt="">
+          <p>Laptop Dell</p>
+          <p class="gia">20.000.000 VND</p>
+          <button>Mua ngay</button>
+        </div>
+        <div class="card">
+          <img src="image/ba.png" alt="">
+          <p>Tai nghe Sony</p>
+          <p class="gia">2.000.000 VND</p>
+          <button>Mua ngay</button>
+        </div>
+        <div class="card">
+          <img src="image/bon.png" alt="">
+          <p>Ốp lưng iPhone</p>
+          <p class="gia">500.000 VND</p>
+          <button>Mua ngay</button>
+        </div>
+      </div>
+
+      <div class="sidebar">
+        <p>Sản phẩm bán chạy</p>
+        <div class="banchay">
+          <img src="image/iphone 16 pro - 3.jpg" alt="">
+          <div>
+            <p>iPhone 15 Pro</p>
+            <p class="giabc">29.000.000 VND</p>
+          </div>
+        </div>
+        <div class="banchay">
+          <img src="image/iphone 16 pro - 3.jpg" alt="">
+          <div>
+            <p>MacBook Air M2</p>
+            <p class="giabc">35.000.000 VND</p>
+          </div>
+        </div>
+        <div class="banchay">
+          <img src="image/iphone 16 pro - 3.jpg" alt="">
+          <div>
+            <p>AirPods Pro</p>
+            <p class="giabc">5.000.000 VND</p>
+          </div>
+        </div>
+        <div class="banchay">
+          <img src="image/iphone 16 pro - 3.jpg" alt="">
+          <div>
+            <p>iPad Air</p>
+            <p class="giabc">18.000.000 VND</p>
+          </div>
+        </div>
+        <div class="banchay">
+          <img src="image/iphone 16 pro - 3.jpg" alt="">
+          <div>
+            <p>Apple Watch Series 9</p>
+            <p class="giabc">12.000.000 VND</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <ul>
+      <span class="tieude"><li>Liên hệ</li></span>
+      <li>Email: support@eshop.com</li>
+      <li>Điện thoại: 0123-456-789</li>
+    </ul>
+    <ul>
+      <span class="tieude"><li>Chính sách</li></span>
+      <li>Chính sách đổi trả</li>
+      <li>Chính sách bảo hành</li>
+      <li>Chính sách vận chuyển</li>
+    </ul>
+    <ul>
+      <span class="tieude"><li>Theo dõi chúng tôi</li></span>
+      <li>Facebook | Instagram | Twitter</li>
+    </ul>
+    <p>© 2026 Tất cả quyền được bảo lưu</p>
+  </footer>
+
+</body>
+</html>

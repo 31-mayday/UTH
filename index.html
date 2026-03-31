@@ -7,15 +7,17 @@
   <link rel="stylesheet" href="style.css" />
 <link rel="shortcut icon" href="image/logo-truong-dai-hoc-giao-thong-van-tai-tp-hcm-1.jpg" type="image/x-icon"></head>
 <body>
-  <header>
-    <div class="logo">
-        <img src="image/logo_full (1).png" alt="">
-    </div>
-    <div class="search">
-      <input type="text" placeholder="Tìm kiếm sản phẩm..." />
-      <button>Tìm</button>
-    </div>
-    <div class="phai">
+    <div class="menu">
+    <header>
+            <div class="logo">
+            <img src="image/logo_full (1).png" alt="">
+        </div>
+
+        <div class="search">
+            <input type="text" placeholder="Tìm kiếm sản phẩm..." />
+            <button>Tìm</button>
+        </div>
+        <div class="phai">
         <ul>
             <li>
                 🛒 Giỏ hàng (0)
@@ -24,52 +26,68 @@
                 👤 Tài khoản
             </li>
         </ul>
-    </div>
-  </header>
+        </div>
+    </header>
+     <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+        <label for="menu-toggle" class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+        </label>
+
   <nav>
-    <ul class="menu">
-        <li><a href="E1.html">Trang chủ</a></li>
-        <li><a href="mobile.html">Điện thoại</a></li>
-        <li><a href="laptop.html">Laptop</a></li>
-        <li><a href="phukien.html">Phụ kiện</a></li>
-        <li><a href="khuyenmai.html">Khuyến mãi</a></li>
-        <li><a href="lienhe.html">Liên hệ</a></li>
+    <ul class="items">
+        <li><a href="E1.html" class="item">Trang chủ</a></li>
+        <li><a href="mobile.html" class="item">Điện thoại</a></li>
+        <li><a href="laptop.html" class="item">Laptop</a></li>
+        <li><a href="phukien.html" class="item">Phụ kiện</a></li>
+        <li><a href="khuyenmai.html" class="item">Khuyến mãi</a></li>
+        <li><a href="lienhe.html" class="item">Liên hệ</a></li>
     </ul>
 </nav>
+</div>
 <section >
 <div class="container">
+
   <div class="banner">
         <img src="image/1.png" alt="">
-  </div>
+
   <div class="products">
-    <div class="card">
-        <img src="image/mot.png" alt="">
-        <p>iPhone 15</p>
-        <p class="gia">25.000.000 VND</p>
-        <button>Mua ngay</button>
-    </div>
-    <div class="card">
-        <img src="image/hai.png" alt="">
-        <p>Laptop Dell</p>
-        <p class="gia">20.000.000 VND</p>
-        <button>Mua ngay</button>    
+
+        <div class="card">
+            <img src="image/mot.png" alt="">
+            <p>iPhone 15</p>
+            <p class="gia">25.000.000 VND</p>
+            <button>Mua ngay</button>
+        </div>
+
+        <div class="card">
+            <img src="image/hai.png" alt="">
+            <p>Laptop Dell</p>
+            <p class="gia">20.000.000 VND</p>
+            <button>Mua ngay</button>    
+        </div>
+
+        <div class="card">
+            <img src="image/ba.png" alt="">
+            <p>Tai nghe Sony</p>
+            <p class="gia">2.000.000 VND</p>
+            <button>Mua ngay</button>
+        </div>
+
+        <div class="card">
+            <img src="image/bon.png" alt="">
+            <p>Ốp lưng iPhone</p>
+            <p class="gia">500.000VND</p>
+            <button>Mua ngay</button>
+        </div>
+
     </div>
 
-    <div class="card">
-        <img src="image/ba.png" alt="">
-        <p>Tai nghe Sony</p>
-        <p class="gia">2.000.000 VND</p>
-        <button>Mua ngay</button>
-    </div>
-    <div class="card">
-        <img src="image/bon.png" alt="">
-        <p>Ốp lưng iPhone</p>
-        <p class="gia">500.000VND</p>
-        <button>Mua ngay</button>
-    </div>
-  </div>
+</div>
 <div class="sidebar">
     <p>Sản phẩm bán chạy</p>
+
     <div class="banchay">
         <img src="image/iphone 16 pro - 3.jpg" alt="">
         <p>iPhone 15 Pro</p>
@@ -88,36 +106,40 @@
         <p class="giabc">5.000.000VND</p>
 
     </div>
-     <div class="banchay">
+    <div class="banchay">
         <img src="image/iphone 16 pro - 3.jpg" alt="">
         <p>iPad Air</p>
         <p class="giabc">18.000.000VND</p>
     </div>
-     <div class="banchay">
+
+    <div class="banchay">
         <img src="image/iphone 16 pro - 3.jpg" alt="">
         <p>Apple Watch Series 9</p>
         <p class="giabc">12.000.000VND</p>
 
 </div>
+
 </section>
 
 <footer class="footer">
-    <ul>
-        <span class="tieude"><li>Lien He</li></span>
-        <li>Email:support@eshop.com</li>
-        <li>Dien Thoai: 0123-456-789</li>
-    </ul>
-    <ul>
-        <span class="tieude"><li>Chinh sach</li></span>
 
-        <li>chinh sach doi tra</li>
-        <li>chinh sach bao hanh</li>
-        <li>chinh sach van chuyen</li>
+    <ul>
+        <li class="tieude">Liên Hệ</li>
+        <li>Email: support@eshop.com</li>
+        <li>Điện Thoại: 0123-456-789</li>
     </ul>
-    <ul><span class="tieude"> <li>Theo doi chung toi</li></span>
-        <li>Facebook|Instagram|Twitter</li>
+    <ul>
+        <li class="tieude">Chính sách</li>
+        <li>Chính sách đổi trả</li>
+        <li>Chính sách bảo hành</li>
+        <li>Chính sách vận chuyển</li>
     </ul>
-    <p>©2026 Tat ca quyen duoc bao luu</p>
+    <ul>
+        <li class="tieude">Theo dõi chúng tôi</li>
+        <li>Facebook | Instagram | Twitter</li>
+    </ul>
+    <p>© 2026 E-Shop. Tất cả quyền được bảo lưu</p>
+
 </footer>
 </body>
 </html>
